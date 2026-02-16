@@ -174,15 +174,17 @@
           "maxPoints": 2,
           "rubric": [
             {
-              "points": 1,
-              "check": "weaken|reduc(e|tion).*load|strength",
-              "flags": "i"
-            },
+  "points": 1,
+  "check": "\\b(?:weaken(?:s|ed)?|weak(?:er)?|reduce(?:s|d)?|reduction|lower(?:s|ed)?|decrease(?:s|d)?|loss\\s*of)\\b[\\s\\S]{0,40}\\b(?:strength|structural\\s*strength|load\\s*bearing|load\\s*bearing\\s*capacity|bending\\s*strength|tensile\\s*strength|stiffness|integrity)\\b|\\b(?:more\\s*likely\\s*to)\\b[\\s\\S]{0,30}\\b(?:break|snap|fail|crack|split)\\b[\\s\\S]{0,30}\\b(?:at|near|around)\\b[\\s\\S]{0,20}\\bknot\\b",
+  "flags": "i"
+}
+,
             {
-              "points": 1,
-              "check": "distort(ion)? of grain|difficult(y)? dressing|shrinkage around",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:distort(?:s|ed|ion)?|twist(?:ed)?|interrupt(?:s|ed)?|break(?:s)?\\s*up|change(?:s|d)?)\\b[\\s\\S]{0,40}\\b(?:grain|wood\\s*grain)\\b|\\b(?:hard|difficult|tricky)\\b[\\s\\S]{0,40}\\b(?:to\\s*plane|to\\s*machine|to\\s*cut|to\\s*sand|to\\s*work|to\\s*dress|to\\s*finish)\\b|\\b(?:tear\\s*-?out|chip(?:ping)?|splinter(?:ing)?|rough\\s*finish|poor\\s*finish|uneven\\s*finish)\\b|\\b(?:shrink(?:age)?|check(?:ing)?|split(?:ting)?|crack(?:ing)?|warp(?:ing)?)\\b[\\s\\S]{0,40}\\b(?:around|near)\\b[\\s\\S]{0,15}\\b(?:knot|knots)\\b|\\b(?:resin|sap)\\b[\\s\\S]{0,20}\\b(?:bleed(?:ing)?|leak(?:ing)?|ooze|stain(?:ing)?)\\b",
+  "flags": "i"
+}
+
           ]
         },
         {
@@ -194,10 +196,11 @@
           "maxPoints": 1,
           "rubric": [
             {
-              "points": 1,
-              "check": "separation.*(fibres|grain)|weak(en|ens)|reduce strength",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:split|splits|splitting|crack|cracks|cracked|fracture|fractured)\\b[\\s\\S]{0,40}\\b(?:along\\s*(?:the\\s*)?grain|with\\s*(?:the\\s*)?grain|in\\s*(?:the\\s*)?grain|lengthwise|longitudinal)\\b|\\b(?:separation|separating|separated)\\b[\\s\\S]{0,40}\\b(?:fib(?:re|er)s?|grain|wood\\s*fib(?:re|er)s?)\\b|\\b(?:open(?:ing)?|gap|gaps)\\b[\\s\\S]{0,40}\\b(?:in\\s*(?:the\\s*)?timber|in\\s*(?:the\\s*)?wood|between\\s*(?:the\\s*)?fib(?:re|er)s?)\\b|\\b(?:weaken(?:s|ed)?|weak(?:er)?|reduce(?:s|d)?|lower(?:s|ed)?|decrease(?:s|d)?|loss\\s*of)\\b[\\s\\S]{0,30}\\b(?:strength|structural\\s*strength|load\\s*bearing|integrity)\\b|\\b(?:more\\s*likely\\s*to)\\b[\\s\\S]{0,25}\\b(?:break|snap|fail)\\b",
+  "flags": "i"
+}
+
           ]
         },
         {
