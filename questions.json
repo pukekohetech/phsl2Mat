@@ -138,11 +138,11 @@
           "type": "long",
           "maxPoints": 1,
           "rubric": [
-            {
-              "points": 1,
-              "check": "percentage.*(dry weight|oven dry)|amount of (moisture|sap).*percentage",
-              "flags": "i"
-            }
+           {
+  "points": 1,
+  "check": "(?:\\bmoisture\\s*content\\b|\\bMC\\b)?[\\s\\S]{0,60}(?:\\b(amount|level|how\\s*wet|how\\s*dry|measure)\\b[\\s\\S]{0,40})?(?:\\bwater\\b|\\bmoisture\\b)[\\s\\S]{0,60}(?:\\b(in|within|inside|contained\\s*in)\\b[\\s\\S]{0,30})?(?:\\btimber\\b|\\bwood\\b)(?:[\\s\\S]{0,80}(?:\\bpercent\\b|\\bpercentage\\b|\\b%\\b)[\\s\\S]{0,60}(?:\\b(dry\\s*weight|oven\\s*-?dry|oven\\s*dry)\\b|\\bcompared\\s*to\\b[\\s\\S]{0,20}\\b(dry\\s*wood|dry\\s*timber)\\b))?",
+  "flags": "i"
+}
           ]
         },
         {
