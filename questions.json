@@ -44,15 +44,17 @@
           "maxPoints": 2,
           "rubric": [
             {
-              "points": 1,
-              "check": "(?:\\bheartwood\\b).*(?:older|old(?:er)?\\s+wood|inner\\s+wood|inactive|dead|no\\s+longer\\s+(?:carr(?:y|ies)|conducts?|transport(?:s|ing)?)\\s+(?:sap|water)|non[-\\s]?living|not\\s+conducting)",
-              "flags": "i"
-            },
+  "points": 1,
+  "check": "\\b(?:heartwood|centre|center|core|inner\\s*wood|inside\\s*of\\s*the\\s*tree)\\b[\\s\\S]{0,80}\\b(?:older|oldest|mature|inactive|dead|non[-\\s]?living|no\\s*longer\\s*(?:alive|active|working)|not\\s*(?:alive|active|living)|stops?\\s*(?:carrying|conducting|transporting)|doesn'?t\\s*(?:carry|conduct|transport)|no\\s*longer\\s*(?:carry|conduct|transport))\\b|\\b(?:sapwood)\\b[\\s\\S]{0,80}\\b(?:still\\s*alive|active|living|carries\\s*sap|transports\\s*sap|conducts\\s*sap)\\b",
+  "flags": "i"
+}
+,
             {
-              "points": 1,
-              "check": "(?:durab(?:le|ility)|resistan(?:t|ce)|hard(?:er|ness)|tough(?:er|ness)|longer\\s+lasting).*(?:decay|rot|fung(?:i|al)|insect|borer|termite)|(?:natural|built[-\\s]?in)\\s+(?:chemicals?|extractives?|resins?|tannins?|oils?|preservatives?)|(?:extractives?|resins?|tannins?|oils?).*(?:protect|resist|repel).*(?:rot|decay|fung(?:i|us)|insect|borer)",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:natural|built[-\\s]?in)\\s*(?:chemicals?|extractives?|resins?|tannins?|oils?|preservatives?)\\b|\\b(?:extractives?|resins?|tannins?|oils?)\\b[\\s\\S]{0,60}\\b(?:protect|resist|repel|prevent|stop)\\b[\\s\\S]{0,40}\\b(?:rot|decay|fung(?:i|us)|mould|mold|insect|borer|termite|pest)\\b|\\b(?:durable|durability|resistant|harder|tougher|longer\\s*lasting|doesn'?t\\s*rot|less\\s*likely\\s*to\\s*rot)\\b[\\s\\S]{0,40}\\b(?:rot|decay|fung(?:i|us)|insect|borer|termite)\\b",
+  "flags": "i"
+}
+
           ]
         },
         {
