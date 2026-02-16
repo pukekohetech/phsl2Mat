@@ -212,10 +212,11 @@
           "maxPoints": 1,
           "rubric": [
             {
-              "points": 1,
-              "check": "bow|crook|cup|twist|not flat|deform|distort",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:warp|warped|warping|bend|bends|bent|curve|curves|curved|twist|twists|twisted|cup|cups|cupped|crook|crooks|bow|bows|bowed)\\b|\\b(?:not\\s*flat|not\\s*straight|out\\s*of\\s*shape|misshapen|deform(?:ed)?|distort(?:ed)?|change(?:s|d)?\\s*shape)\\b|\\b(?:won'?t|will\\s*not|doesn'?t)\\b[\\s\\S]{0,20}\\b(?:sit|lie|fit|line\\s*up)\\b[\\s\\S]{0,20}\\b(?:flat|straight|properly)\\b",
+  "flags": "i"
+}
+
           ]
         },
         {
@@ -227,10 +228,10 @@
           "maxPoints": 1,
           "rubric": [
             {
-              "points": 1,
-              "check": "borer|common house borer|anobium|termite",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:borer|wood\\s*borer|house\\s*borer|common\\s*house\\s*borer|anobium|anobium\\s*punctatum|termite|termites)\\b",
+  "flags": "i"
+}
           ]
         },
         {
@@ -242,10 +243,11 @@
           "maxPoints": 1,
           "rubric": [
             {
-              "points": 1,
-              "check": "remove|replace|discard|get rid|treated timber|professional",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:remove|removed|replace|replaced|discard|dispose|get\\s*rid|throw\\s*away|do\\s*not\\s*use|don'?t\\s*use|scrap)\\b|\\b(?:treated\\s*timber|use\\s*treated\\s*timber|replace\\s*with\\s*treated)\\b|\\b(?:professional|specialist|pest\\s*control|treatment|fumigation|eradication)\\b",
+  "flags": "i"
+}
+
           ]
         },
         {
@@ -257,15 +259,17 @@
           "maxPoints": 2,
           "rubric": [
             {
-              "points": 1,
-              "check": "keep.*dry|prevent moisture|cover|off ground",
-              "flags": "i"
-            },
+  "points": 1,
+  "check": "\\b(?:keep|kept)\\b[\\s\\S]{0,20}\\b(?:dry|dryness)\\b|\\b(?:prevent|avoid|reduce)\\b[\\s\\S]{0,20}\\b(?:moisture|water|damp|wetness)\\b|\\b(?:cover|covered|seal(?:ed)?|waterproof(?:ed)?)\\b|\\b(?:off\\s*the\\s*ground|not\\s*on\\s*the\\s*ground|raised)\\b",
+  "flags": "i"
+}
+,
             {
-              "points": 1,
-              "check": "ventilat(e|ion)|air flow|store.*properly|treated timber",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "\\b(?:ventilat(?:e|ion)|air\\s*flow|airflow|good\\s*air)\\b|\\b(?:store|stored|stack|stacked)\\b[\\s\\S]{0,20}\\b(?:properly|correctly|well)\\b|\\b(?:treated\\s*timber|use\\s*treated)\\b",
+  "flags": "i"
+}
+
           ]
         }
       ]
