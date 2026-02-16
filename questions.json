@@ -680,7 +680,7 @@
           "rubric": [
             {
               "points": 1,
-              "check": "shrink|shrinking|movement|move|dry\\s*out"\,
+              "check": "shrink|shrinking|movement|move|dry\\s*out",
               "flags": "i"
             },
             {
