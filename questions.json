@@ -325,7 +325,7 @@
           "rubric": [
             {
               "points": 1,
-              "check": "(?:\\bimported\\b|brought\\s+in).*(?:overseas|abroad|foreign)|(?:grown|from)\\s+(?:overseas|abroad|a\\s+foreign\\s+country)",
+              "check": "(?:\\bindigenous\\b|native)[\\s\\S]{0,40}(?:new\\s*zealand|nz|aotearoa)|(?:naturally\\s*(?:occurs|grown)|originally\\s*from)[\\s\\S]{0,40}(?:new\\s*zealand|nz|aotearoa)",
               "flags": "i"
             }
           ]
@@ -340,7 +340,7 @@
           "rubric": [
             {
               "points": 1,
-              "check": "radiata( pine)?",
+              "check": "radiata(\\s*pine)?|pinus\\s*radiata",
               "flags": "i"
             }
           ]
@@ -355,27 +355,27 @@
           "rubric": [
             {
               "points": 1,
-              "check": "construction|framing|building",
+              "check": "construction|framing|building|houses?|structural",
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "furniture|cabinet",
+              "check": "furniture|cabinet|cabinetry",
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "joinery",
+              "check": "joinery|doors?|windows?|trim",
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "plywood|veneer",
+              "check": "plywood|ply|veneer|laminated",
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "m(d|df)|particle board|manufactured boards",
+              "check": "m(d|df)|particle\\s*board|chipboard|manufactured\\s*boards?|engineered\\s*wood",
               "flags": "i"
             }
           ]
@@ -490,7 +490,8 @@
             },
             {
               "points": 1,
-              "check": "(No\\.?\\s*1|#1).*(D4S|dressed).*air|AD|selected lengths|SL|5\\.4|4\\.8",
+              "check": "(No\\.?\\s*1|#1|number\\s*1)[\\s\\S]{0,40}(D4S|dressed)[\\s\\S]{0,40}(air\\s*dried|AD)[\\s\\S]{0,40}(selected\\s*lengths?|SL)|5\\.4|4\\.8"
+,
               "flags": "i"
             }
           ]
@@ -515,7 +516,8 @@
             },
             {
               "points": 1,
-              "check": "RS|rough sawn|H4|T&G|tongue.*groove|random|45",
+              "check": "RS|rough\\s*sawn|H4|T&G|tongue\\s*(?:and|&)\\s*groove|tongue\\s*and\\s*grooved|random|45"
+,
               "flags": "i"
             }
           ]
@@ -535,7 +537,8 @@
             },
             {
               "points": 1,
-              "check": "low (humidity|moisture)",
+              "check": "low\\s*(humidity|moisture)|dry\\s*air|not\\s*humid"
+,
               "flags": "i"
             },
             {
@@ -555,12 +558,12 @@
           "rubric": [
             {
               "points": 1,
-              "check": "air (flow|circulation)|ventilation between boards",
+              "check": "air\\s*(flow|circulation)|ventilation|allow\\s*air",
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "keep.*straight|prevent warp|dry evenly",
+              "check": "keep\\s*(?:boards|timber)\\s*straight|prevent\\s*(?:warp|warping)|dry\\s*evenly",
               "flags": "i"
             }
           ]
@@ -575,7 +578,7 @@
           "rubric": [
             {
               "points": 1,
-              "check": "bend|deform|warp|bow|crook|twist",
+              "check": "bend|bending|deform|deformed|warp|warping|bow|crook|twist|twisted|cup|cupping",
               "flags": "i"
             }
           ]
@@ -600,7 +603,8 @@
             },
             {
               "points": 1,
-              "check": "year[- ]round|available.*all year|sterilis(e|z).*insects|kill insects",
+              "check": "year[- ]round|available.*all\\s*year|sterilis(e|z)|kills?\\s*(?:insects|borer|bugs)"
+,
               "flags": "i"
             }
           ]
@@ -615,7 +619,8 @@
           "rubric": [
             {
               "points": 1,
-              "check": "(in balance|equal).*(surrounding air|environment|humidity)",
+              "check": "(in\\s*balance|equal|same)[\\s\\S]{0,40}(air|environment|humidity|surroundings)"
+,
               "flags": "i"
             }
           ]
@@ -660,7 +665,7 @@
           "rubric": [
             {
               "points": 1,
-              "check": "\\b30\\b|thirty|25\\s*[--]\\s*30",
+              "check": "\\b30\\b|thirty|25\\s*[-–]\\s*30",
               "flags": "i"
             }
           ]
@@ -675,17 +680,17 @@
           "rubric": [
             {
               "points": 1,
-              "check": "shrink|movement|dry out",
+              "check": "shrink|shrinking|movement|move|dry\\s*out"\,
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "warp|twist|cup|bow",
+              "check": "warp|warping|twist|twisting|cup|cupping|bow|bowing",
               "flags": "i"
             },
             {
               "points": 1,
-              "check": "joints? (fail|open|loosen)|split|check",
+              "check": "joints?\\s*(fail|open|loosen)|split|splitting|check|checking|crack|cracking",
               "flags": "i"
             }
           ]
