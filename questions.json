@@ -1,0 +1,1890 @@
+{
+  "APP_ID": "pukekohetech-24360",
+  "VERSION": "2026",
+  "APP_TITLE": "US 24360 – Timber & Construction Materials Knowledge",
+  "APP_SUBTITLE": "PHS - L2 Building – Assessment",
+  "DEADLINE": {
+    "day": 24,
+    "month": 12,
+    "label": "Submission deadline"
+  },
+  "TEACHERS": [
+    {
+      "id": "RY",
+      "name": "Mr Reynolds",
+      "email": "ry@pukekohehigh.school.nz"
+    },
+    {
+      "id": "RNR",
+      "name": "Mr Ranson",
+      "email": "rnr@pukekohehigh.school.nz"
+    },
+    {
+      "id": "Other",
+      "name": "Other Teacher",
+      "email": "technology@pukekohehigh.school.nz"
+    }
+  ],
+  "ASSESSMENTS": [
+    {
+      "id": "24360-selfreflection1",
+      "title": "Learner Self-reflection 1 – 24360 (v3)",
+      "subtitle": "Tree structure, timber seasoning, moisture, defects, insects & fungi",
+      "usNumber": "24360",
+      "usVersion": "v3",
+      "credits": 4,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "sr1_q1_heartwood",
+          "text": "Explain why the heartwood of the tree is harder and more durable than the sapwood in most timbers.",
+          "image": "blank.jpg",
+          "hint": "See page 9 – Heartwood and Sapwood.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(heartwood).*(older|inactive)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(durable|resistan(t|ce)).*(decay|rot|insect|borer)|natural (chemicals|extractives)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q2_indigenous_furniture",
+          "text": "Name an indigenous timber that is commonly used for high quality furniture making.",
+          "image": "blank.jpg",
+          "hint": "See page 11 – Indigenous timbers (recycled furniture industry mention).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(rimu|kauri|matai)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q3_common_exotic_construction",
+          "text": "Name the most commonly used exotic timber for construction in New Zealand.",
+          "image": "blank.jpg",
+          "hint": "See page 12 – Exotic softwoods.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(radiata( pine)?|pinus radiata)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q4_advantages_seasoned",
+          "text": "Identify three advantages of using seasoned timber over unseasoned timber.",
+          "image": "blank.jpg",
+          "hint": "See page 18 – Reasons for seasoning.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "stable|move/shrink less|less (movement|shrinkage)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "lighter|easier to transport|easier to handle",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "stronger|harder|less corrosive",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q5_methods_seasoning",
+          "text": "What are two methods of seasoning timber?",
+          "image": "blank.jpg",
+          "hint": "See page 18 – Methods of seasoning.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bair (season(ing)?|dry(ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\bkiln (season(ing)?|dry(ing)?)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q6_moisture_content_def",
+          "text": "What is moisture content within timber?",
+          "image": "blank.jpg",
+          "hint": "See page 22 – Moisture content (MC) definition.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "percentage.*(dry weight|oven dry)|amount of (moisture|sap).*percentage",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q7_methods_mc",
+          "text": "What are two methods of determining the moisture content in timber?",
+          "image": "blank.jpg",
+          "hint": "See page 22 – Methods of determining MC.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "moisture (meter|metre)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "oven(-| )dry|weigh.*dry",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q8_defect_knot",
+          "text": "What effects would a KNOT have on timber?",
+          "image": "blank.jpg",
+          "hint": "See page 24 – Knots.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "weaken|reduc(e|tion).*load|strength",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "distort(ion)? of grain|difficult(y)? dressing|shrinkage around",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q8_defect_split",
+          "text": "What effects would a SPLIT have on timber?",
+          "image": "blank.jpg",
+          "hint": "See page 25 – Split.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "separation.*(fibres|grain)|weak(en|ens)|reduce strength",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q8_defect_warp",
+          "text": "What effects would WARP have on timber?",
+          "image": "blank.jpg",
+          "hint": "See page 25 – Warp (bow/crook/cup/twist).",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "bow|crook|cup|twist|not flat|deform|distort",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q9_insect_nz",
+          "text": "Name a type of timber-destroying insect that is commonly found in New Zealand.",
+          "image": "blank.jpg",
+          "hint": "See page 26 – Timber-destroying insects (borers/termites).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "borer|common house borer|anobium|termite",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q10_infested_action",
+          "text": "What should you do if timber is infested with wood destroying insects?",
+          "image": "blank.jpg",
+          "hint": "See pages 26–27 – Insect damage guidance (remove/replace; use treated timber).",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "remove|replace|discard|get rid|treated timber|professional",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr1_q11_prevent_fungal",
+          "text": "Identify 2 ways to prevent fungal growth in timber.",
+          "image": "blank.jpg",
+          "hint": "See page 29 – Fungal decay prevention (keep dry/ventilated; correct use/storage).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "keep.*dry|prevent moisture|cover|off ground",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "ventilat(e|ion)|air flow|store.*properly|treated timber",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24360-selfreflection2",
+      "title": "Learner Self-reflection 2 – 24360 (v3)",
+      "subtitle": "Timber classification, uses, ordering abbreviations, seasoning practice & moisture behaviour",
+      "usNumber": "24360",
+      "usVersion": "v3",
+      "credits": 4,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "sr2_q1_indigenous_def",
+          "text": "Define: Indigenous timber.",
+          "image": "blank.jpg",
+          "hint": "See page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "native to (new zealand|nz)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q1_exotic_def",
+          "text": "Define: Exotic timber.",
+          "image": "blank.jpg",
+          "hint": "See page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "grown in (new zealand|nz).*not native|introduced",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q1_imported_def",
+          "text": "Define: Imported timber.",
+          "image": "blank.jpg",
+          "hint": "See page 11.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "grown (overseas|in a foreign country)|import(ed)?",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q2_common_grown",
+          "text": "Name the most commonly grown timber in New Zealand.",
+          "image": "blank.jpg",
+          "hint": "See page 12.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "radiata( pine)?",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q3_uses_radiata",
+          "text": "List five uses for Radiata Pine.",
+          "image": "blank.jpg",
+          "hint": "See page 12 (Radiata pine uses).",
+          "type": "long",
+          "maxPoints": 5,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "construction|framing|building",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "furniture|cabinet",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "joinery",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "plywood|veneer",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "m(d|df)|particle board|manufactured boards",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q4_abbrev_RS",
+          "text": "What does RS mean?",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Abbreviations.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "rough sawn",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q4_abbrev_D4S",
+          "text": "What does D4S mean?",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Abbreviations.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "dressed (four|4) sides",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q4_abbrev_KD",
+          "text": "What does KD mean?",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Abbreviations.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "kiln dried|kiln-dried",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q4_abbrev_RAD",
+          "text": "What does RAD mean?",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Abbreviations.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "radiata",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q4_abbrev_MG",
+          "text": "What does MG mean?",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Abbreviations.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "machine gauged|machined gauged",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q4_abbrev_BT",
+          "text": "What does BT mean?",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Abbreviations.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "boron treated|boron",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q5a_order_abbrev",
+          "text": "Abbreviate this timber order: New Zealand Oregon, 75 x 50, Number 1 grade, dressed four sides, air dried, selected lengths, 2 lengths @ 5.4m, 5 lengths @ 4.8m.",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Ordering abbreviations.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(NZO|new zealand oregon)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "75\\s*x\\s*50|75x50",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(No\\.?\\s*1|#1).*(D4S|dressed).*air|AD|selected lengths|SL|5\\.4|4\\.8",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q5b_order_abbrev",
+          "text": "Abbreviate this timber order: Radiata pine, 150 x 50, rough sawn, treatment level H4, tongue and grooved, random lengths to 45 metres.",
+          "image": "blank.jpg",
+          "hint": "See page 17 – Ordering abbreviations; page 30 for H classes (H4).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "RAD|radiata",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "150\\s*x\\s*50|150x50",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "RS|rough sawn|H4|T&G|tongue.*groove|random|45",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q6_conditions_seasoning",
+          "text": "What are 3 conditions needed for seasoning timber?",
+          "image": "blank.jpg",
+          "hint": "See page 19 – Conditions needed for kiln seasoning (same principles for drying).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "heat",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "low (humidity|moisture)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "air (circulation|flow)|ventilation",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q7_fillets_why",
+          "text": "Why should fillets be placed between the boards when seasoning?",
+          "image": "blank.jpg",
+          "hint": "See page 19 – Fillets stacking guidance.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "air (flow|circulation)|ventilation between boards",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "keep.*straight|prevent warp|dry evenly",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q8_fillets_not_aligned",
+          "text": "What will happen to the timber if the fillets are not vertically aligned?",
+          "image": "blank.jpg",
+          "hint": "See page 20 – Out of level bearers cause bending/deformation; page 19 fillets alignment.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "bend|deform|warp|bow|crook|twist",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q9_kiln_vs_air_advantages",
+          "text": "What are 3 advantages of kiln seasoning over air seasoning?",
+          "image": "blank.jpg",
+          "hint": "See page 19 – Kiln seasoning advantages.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "faster|quicker|speed",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "controlled|consistent|accurate.*moisture",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "year[- ]round|available.*all year|sterilis(e|z).*insects|kill insects",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q10_emc_sentence",
+          "text": "Complete: Equilibrium Moisture Content (EMC) is reached when the moisture ...",
+          "image": "blank.jpg",
+          "hint": "See page 22 – EMC definition.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(in balance|equal).*(surrounding air|environment|humidity)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q10_shrinkage_where",
+          "text": "Complete: Most shrinkage of timber will occur in the ________.",
+          "image": "blank.jpg",
+          "hint": "See page 23 – Shrinkage section (sapwood shrinks most).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "sapwood",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q10_fsp",
+          "text": "Complete: Shrinkage will start to occur when timber has reached its Fibre ________ ________ (FSP).",
+          "image": "blank.jpg",
+          "hint": "See page 23 – Fibre saturation point.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "fibre saturation point|fiber saturation point|FSP",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q10_fsp_percent",
+          "text": "Complete: Fibre saturation point is 25 to ____% MC.",
+          "image": "blank.jpg",
+          "hint": "See page 23 – FSP approx 25–30%.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b30\\b|thirty|25\\s*[-–]\\s*30",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr2_q11_cabinet_25mc",
+          "text": "Describe the consequences of using timber with a moisture content of 25% to construct a cabinet.",
+          "image": "blank.jpg",
+          "hint": "See page 23 – Shrinkage and moisture content implications.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "shrink|movement|dry out",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "warp|twist|cup|bow",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "joints? (fail|open|loosen)|split|check",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24360-selfreflection3",
+      "title": "Learner Self-reflection 3 – 24360 (v3)",
+      "subtitle": "Defects identification, borer knowledge, stacking and treatment grades",
+      "usNumber": "24360",
+      "usVersion": "v3",
+      "credits": 4,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "sr3_q1_defect1_type",
+          "text": "Identify the defect shown (Defect 1). Provide the type.",
+          "image": "blank.jpg",
+          "hint": "Use the defect descriptions: pages 24–25.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "knot|split|check|shake|warp|bow|crook|cup|twist",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q1_defect1_desc",
+          "text": "Describe Defect 1.",
+          "image": "blank.jpg",
+          "hint": "Use pages 24–25 for language.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": ".+",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q1_defect2_type",
+          "text": "Identify the defect shown (Defect 2). Provide the type.",
+          "image": "blank.jpg",
+          "hint": "Use the defect descriptions: pages 24–25.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "knot|split|check|shake|warp|bow|crook|cup|twist",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q1_defect2_desc",
+          "text": "Describe Defect 2.",
+          "image": "blank.jpg",
+          "hint": "Use pages 24–25 for language.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": ".+",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q2_knot_beam_consequence",
+          "text": "Describe the potential consequences of using a beam with a large knot in it.",
+          "image": "blank.jpg",
+          "hint": "See page 24 – Knots effects (load-bearing, distortion).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "reduc(e|tion).*load|weaken|strength",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "fail|break|crack|distort grain|unsafe",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q3_borer_lifecycle",
+          "text": "Common house borer: Length of life cycle.",
+          "image": "blank.jpg",
+          "hint": "See page 26 – Common house borer details.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "up to 3 years|three years|3 years",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q3_borer_flight",
+          "text": "Common house borer: Time of flight season.",
+          "image": "blank.jpg",
+          "hint": "See page 26 – Flight season (Sept–April).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(sept|september).*(april)|spring.*summer|sept.*-.*april",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q3_borer_exit_hole",
+          "text": "Common house borer: Size of exit hole.",
+          "image": "blank.jpg",
+          "hint": "See page 26 – Exit holes (1–2mm).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "1\\s*[-–]\\s*2\\s*mm|1-2mm|one.*to.*two.*mm",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q3_borer_adult_size",
+          "text": "Common house borer: Size of adult beetle.",
+          "image": "blank.jpg",
+          "hint": "See page 26 – Adult size (3–5mm).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "3\\s*[-–]\\s*5\\s*mm|3-5mm|three.*to.*five",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q3_borer_attacks",
+          "text": "Common house borer: Example of timber attacked.",
+          "image": "blank.jpg",
+          "hint": "See page 26 – Attacks softwood sapwood.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "softwood.*sapwood|sapwood.*softwood|radiata.*sapwood",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q3_borer_control",
+          "text": "Common house borer: Control and eradication.",
+          "image": "blank.jpg",
+          "hint": "See pages 26–27 – Remove/replace, use treated timber, professional advice.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "remove|replace|treated timber|professional|eradication",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q4_site_stacking",
+          "text": "What are 3 important practices that should be followed when stacking timber on a building site?",
+          "image": "blank.jpg",
+          "hint": "See pages 19–20 – Stacking/storage guidance.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "off the ground|well off the ground|bearers",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "level (bearers|supports)|aligned|vertical fillets",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "air flow|ventilation|cover|protect from weather|seal ends",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q5_treatment_fence_posts",
+          "text": "What treatment grade is suited for fence posts?",
+          "image": "blank.jpg",
+          "hint": "See page 30 – Treatment grades table.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bH4\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q5_treatment_fence_rails",
+          "text": "What treatment grade is suited for fence rails?",
+          "image": "blank.jpg",
+          "hint": "See page 30 – Treatment grades table.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bH3(\\.2)?\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q5_treatment_decking",
+          "text": "What treatment grade is suited for decking timber?",
+          "image": "blank.jpg",
+          "hint": "See page 30 – Treatment grades table.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bH3(\\.2)?\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q5_treatment_retaining",
+          "text": "What treatment grade is suited for a retaining wall?",
+          "image": "blank.jpg",
+          "hint": "See page 30 – Treatment grades table.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bH5\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q5_treatment_interior_framing",
+          "text": "What treatment grade is suited for interior framing?",
+          "image": "blank.jpg",
+          "hint": "See page 30 – Treatment grades table.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bH1(\\.2)?\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q6_cut_post_ends",
+          "text": "Why should you never cut post ends that are going to be imbedded in the ground?",
+          "image": "blank.jpg",
+          "hint": "See page 31 – Treatment and exposed end grain reasoning.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "end grain.*(exposed|untreated)|treatment.*won'?t protect|cuts remove treatment",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "rot|decay|fungal|failure|shorten life",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr3_q7_rot_infected",
+          "text": "What should you do when you find timber infected with rot?",
+          "image": "blank.jpg",
+          "hint": "See page 29 – Fungal decay response guidance.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "remove|replace|do not use|discard|repair/replace",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24360-selfreflection4",
+      "title": "Learner Self-reflection 4 – 24360 (v3)",
+      "subtitle": "Concrete, steels, manufactured boards and corrosion",
+      "usNumber": "24360",
+      "usVersion": "v3",
+      "credits": 4,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "sr4_q1_concrete_ingredient1",
+          "text": "Concrete: name one main ingredient (1 of 4).",
+          "image": "blank.jpg",
+          "hint": "See pages 33–34.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "cement|sand|aggregate|water",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q1_concrete_ingredient2",
+          "text": "Concrete: name one main ingredient (2 of 4).",
+          "image": "blank.jpg",
+          "hint": "See pages 33–34.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "cement|sand|aggregate|water",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q1_concrete_ingredient3",
+          "text": "Concrete: name one main ingredient (3 of 4).",
+          "image": "blank.jpg",
+          "hint": "See pages 33–34.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "cement|sand|aggregate|water",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q1_concrete_ingredient4",
+          "text": "Concrete: name one main ingredient (4 of 4).",
+          "image": "blank.jpg",
+          "hint": "See pages 33–34.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "cement|sand|aggregate|water",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q2_ratio_1",
+          "text": "Concrete ratios 1:2:4 – what is ingredient 1?",
+          "image": "blank.jpg",
+          "hint": "See page 34 – Ratios.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "cement",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q2_ratio_2",
+          "text": "Concrete ratios 1:2:4 – what is ingredient 2?",
+          "image": "blank.jpg",
+          "hint": "See page 34 – Ratios.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "sand",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q2_ratio_4",
+          "text": "Concrete ratios 1:2:4 – what is ingredient 4?",
+          "image": "blank.jpg",
+          "hint": "See page 34 – Ratios.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "aggregate|stone|gravel",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q3_steel_strength",
+          "text": "How does the inclusion of steel increase the strength of concrete?",
+          "image": "blank.jpg",
+          "hint": "See page 36 – Concrete strength (compression vs tension).",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "tensile strength|weak in tension|reinforced concrete",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q4_mdf_nails",
+          "text": "What type of nails should be used when joining MDF?",
+          "image": "blank.jpg",
+          "hint": "See page 49 – Fixing MDF (nailing).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "annular grooved|ring shank|spiral nails?",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q5_ppe_boards",
+          "text": "What PPE should be used when machining manufactured boards?",
+          "image": "blank.jpg",
+          "hint": "See page 46 – Health and safety (PPE list).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "safety (glasses|goggles)|eye protection",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "respirator|dust mask|mask",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "hearing protection|earmuffs|ear plugs|earplugs",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q6_plywood_grade",
+          "text": "A plywood sheet is A-D grade. Describe what these grades mean for what the sheet will look like.",
+          "image": "blank.jpg",
+          "hint": "See page 47 – Plywood grades (A to D).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "A.*high quality|top grade|appearance",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "D.*rough|defect|lower quality|appearance less important",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q7_protect_steel",
+          "text": "Describe 2 means of protecting mild steel from rusting.",
+          "image": "blank.jpg",
+          "hint": "See page 37 – Mild steel section (corrosion protection methods).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "galvani(s|z)ed|zinc coating",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "paint|coating|primer|oil|grease",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "sr4_q8_aluminium_contact",
+          "text": "What will happen if aluminium comes into contact with other metals such as copper or steel?",
+          "image": "blank.jpg",
+          "hint": "See page 37 – Galvanic corrosion.",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "galvanic corrosion|corrode|electrolytic corrosion|react",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24360-knowledgeassessment",
+      "title": "Knowledge Assessment – 24360 (v3)",
+      "subtitle": "Timber types, sawing, defects, decay, treatment and other materials",
+      "usNumber": "24360",
+      "usVersion": "v3",
+      "credits": 4,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "ka_q1_timber_types_table",
+          "text": "Describe each timber type: Indigenous, Exotic, Imported, Hardwood, Softwood.",
+          "image": "blank.jpg",
+          "hint": "See pages 10–12 (classification and timber types).",
+          "type": "long",
+          "maxPoints": 5,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "indigenous.*native to (new zealand|nz)|native timbers?",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "exotic.*grown in (new zealand|nz).*not native|introduced",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "imported.*(overseas|foreign).*import",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "hardwood.*(broadleaf|deciduous)|generally (harder|denser|stronger)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "softwood.*(cone-bearing|evergreen|needle)|generally (lighter|softer)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_radiata_pine",
+          "text": "What type of timber comes from Radiata pine?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bsoftwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_rimu",
+          "text": "What type of timber comes from Rimu?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bsoftwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_kauri",
+          "text": "What type of timber comes from Kauri?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bsoftwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_totara",
+          "text": "What type of timber comes from Totara?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bsoftwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_tawa",
+          "text": "What type of timber comes from Tawa?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bhardwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_douglas_fir",
+          "text": "What type of timber comes from Douglas fir?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bsoftwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q2_kwila",
+          "text": "What type of timber comes from Kwila?",
+          "image": "blank.jpg",
+          "hint": "See pages 10–13 (softwood vs hardwood; timber species pages).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bhardwood\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q3_log_parts",
+          "text": "Identify the parts of the log labelled A–E (e.g., bark, sapwood, heartwood, pith/medulla, growth rings/medullary rays).",
+          "image": "blank.jpg",
+          "hint": "See pages 8–9 – Parts of a tree/log diagram and definitions.",
+          "type": "long",
+          "maxPoints": 5,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "bark|cortex|outer bark",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "sapwood",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "heartwood",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "pith|medulla|heart",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "growth rings|annual rings|medullary rays",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q4a_wearing_surface",
+          "text": "Complete: ______ cut timber has a better wearing surface.",
+          "image": "blank.jpg",
+          "hint": "See pages 14–15 – Cutting/sawing timber.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "quarter|radial|quarter sawn|radial cut",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q4b_beams",
+          "text": "Complete: ______ cut timber is strong and suitable for beams.",
+          "image": "blank.jpg",
+          "hint": "See pages 14–15.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "quarter|radial|quarter sawn|radial cut",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q4c_medullary_rays",
+          "text": "Complete: The medullary rays on ______ cut timber produce an attractive effect on some timbers.",
+          "image": "blank.jpg",
+          "hint": "See pages 14–15.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "quarter|radial|quarter sawn|radial cut",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q4d_cupping",
+          "text": "Complete: Timber cupping away from the heart is more likely with ______ cut timber.",
+          "image": "blank.jpg",
+          "hint": "See pages 14–15.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "flat|tangential|flat sawn|tangential cut",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q5_knot_effects",
+          "text": "A large knot is running through the face of a board. List at least two effects this has on the working and structural qualities of the timber.",
+          "image": "blank.jpg",
+          "hint": "See page 24 – Knots effects.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "reduc(e|tion).*load|weaken|strength",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "distortion of grain|difficulty dressing|shrinkage around|splits|checks",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q6_defects_identify",
+          "text": "Identify the defects shown (use correct defect names).",
+          "image": "blank.jpg",
+          "hint": "See pages 24–25 – Defects: knots, shake, split, check, warp.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "knot|shake|split|check|warp|bow|crook|cup|twist",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "knot|shake|split|check|warp|bow|crook|cup|twist",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q7a_borer_signs",
+          "text": "What are the signs that timber is affected by borer?",
+          "image": "blank.jpg",
+          "hint": "See pages 26–27 (borer).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "exit holes?|flight holes?|holes?",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "frass|powder|fine dust|borer dust",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q7b_wet_rot_signs",
+          "text": "What are the signs that timber is affected by wet rot?",
+          "image": "blank.jpg",
+          "hint": "See page 29 (fungal decay).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "soft|spongy|crumbly",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "dark|discolour|musty|fungus|decay",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q8_env_causes",
+          "text": "Give 4 environmental causes of timber deterioration and describe the effect each has.",
+          "image": "blank.jpg",
+          "hint": "See pages 22–23 (moisture movement) and page 29 (fungal decay conditions).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "moisture|water|damp|wet|humidity|rain",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "heat|sun|hot|dry|wind",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "poor ventilation|no air flow",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "insects|borer|termite|fungus|rot",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q9_rough_vs_dressed",
+          "text": "What is the difference between rough sawn and dressed timber?",
+          "image": "blank.jpg",
+          "hint": "See pages 14–15 (milling/finishing).",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "rough sawn.*(not planed|sawn surface|rough)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "dressed.*(planed|smooth|machined)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q10_air_vs_kiln",
+          "text": "What is the difference between air seasoning and kiln seasoning timber?",
+          "image": "blank.jpg",
+          "hint": "See pages 18–19.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "air.*(stack|dry).*natur(al|ally)|outside|time",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "kiln.*(heated|controlled)|faster|kiln dried",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q11_boron",
+          "text": "Timber treatment: Boron salts — How is it applied, and why is it used?",
+          "image": "blank.jpg",
+          "hint": "See page 31 – Boron salts.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "soak(ed)?|solution|diffusion|freshly sawn|unseasoned",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "insect attack|borer|some fungal protection|protected from weather",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q11_cca",
+          "text": "Timber treatment: CCA — How is it applied, and why is it used?",
+          "image": "blank.jpg",
+          "hint": "See page 31 – CCA.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "pressure treated|vacuum|impregnat(ed|ion)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "ground contact|decay|insects|exterior|durable",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q11_losp",
+          "text": "Timber treatment: LOSP — How is it applied, and why is it used?",
+          "image": "blank.jpg",
+          "hint": "See page 31 – LOSP.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "solvent|light organic solvent|vacuum|spray|dip",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "above ground|joinery|insect|decay|paintable",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q12_safe_procedures_treated",
+          "text": "List 3 safe working and handling procedures needed when working with treated timber.",
+          "image": "blank.jpg",
+          "hint": "See page 21 – Timber handling and treatment safety.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "gloves|overalls|wash hands|avoid skin contact",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "dust mask|respirator|avoid dust|ventilation",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "cut outside|clean up dust|dispose properly|follow instructions",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q13_never_burn",
+          "text": "Why should treated timber never be burned?",
+          "image": "blank.jpg",
+          "hint": "See page 21 (chemical hazards) and page 31 (preservatives).",
+          "type": "long",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "toxic fumes|poison|chemicals|harmful smoke|hazard",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q14_fillets",
+          "text": "Why should fillets be placed between the boards when seasoning?",
+          "image": "blank.jpg",
+          "hint": "See page 19 – Fillets.",
+          "type": "long",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "air (flow|circulation)|ventilation",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "keep.*straight|prevent warp|dry evenly",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q15_storage_protect",
+          "text": "What are three things that will help protect timber when you are storing it?",
+          "image": "blank.jpg",
+          "hint": "See page 20 – Timber storage.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "off the ground|not on concrete|bearers",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "level bearers|support|avoid bending",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "cover|wrap|keep sealed|protect from moisture",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q16_material_1",
+          "text": "Material 1: Choose a construction material and complete: what it is made of; basic structural properties; uses; 2 safety tips; any special handling; how it should be stored.",
+          "image": "blank.jpg",
+          "hint": "See pages 32–49 – Other construction materials (metals, concrete, plastics, manufactured boards, etc.).",
+          "type": "long",
+          "maxPoints": 6,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "made of|composition|ingredients|material",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "properties|strong|brittle|flexible|ductile|dense|hard",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "used for|applications|purpose",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "safety|PPE|gloves|mask|goggles|ventilation",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "special handling|requirements|hazard",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "stored|storage|dry|covered|ventilated",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q16_material_2",
+          "text": "Material 2: Choose a construction material and complete: what it is made of; basic structural properties; uses; 2 safety tips; any special handling; how it should be stored.",
+          "image": "blank.jpg",
+          "hint": "See pages 32–49 – Other construction materials (metals, concrete, plastics, manufactured boards, etc.).",
+          "type": "long",
+          "maxPoints": 6,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "made of|composition|ingredients|material",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "properties|strong|brittle|flexible|ductile|dense|hard",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "used for|applications|purpose",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "safety|PPE|gloves|mask|goggles|ventilation",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "special handling|requirements|hazard",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "stored|storage|dry|covered|ventilated",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "ka_q16_material_3",
+          "text": "Material 3: Choose a construction material and complete: what it is made of; basic structural properties; uses; 2 safety tips; any special handling; how it should be stored.",
+          "image": "blank.jpg",
+          "hint": "See pages 32–49 – Other construction materials (metals, concrete, plastics, manufactured boards, etc.).",
+          "type": "long",
+          "maxPoints": 6,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "made of|composition|ingredients|material",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "properties|strong|brittle|flexible|ductile|dense|hard",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "used for|applications|purpose",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "safety|PPE|gloves|mask|goggles|ventilation",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "special handling|requirements|hazard",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "stored|storage|dry|covered|ventilated",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
