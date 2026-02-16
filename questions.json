@@ -44,15 +44,15 @@
           "maxPoints": 2,
           "rubric": [
             {
-              "points": 1,
-              "check": "(heartwood).*(older|inactive)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(durable|resistan(t|ce)).*(decay|rot|insect|borer)|natural (chemicals|extractives)",
-              "flags": "i"
-            }
+  "points": 1,
+  "check": "(?i)\\bheart\\s*wood\\b.*\\b(older|oldest|mature|inner|centre|central|core|dead|non[- ]?living|no longer living|inactive|not active|no longer active|stops? working|not functioning|non[- ]?functional|doesn'?t carry|does not carry|not carrying|no longer carries|can'?t carry|cannot carry|stops? carrying|transport\\w*|conduct\\w*|move\\w*).{0,40}\\b(sap|water|nutrients?)\\b|\\b(sap|water|nutrients?)\\b.{0,40}\\b(not carried|not transported|no longer transported|not conducted|not moved)\\b.*\\bheart\\s*wood\\b",
+"flags": "i"
+},
+           {
+  "points": 1,
+  "check": "(?i)\\bheart\\s*wood\\b.*\\b(durable|hard\\w*|tough\\w*|strong\\w*|lasts? longer|long[- ]?lasting|more durable|more resistant|less likely)\\b.*\\b(rot|decay|fung\\w*|mould|mold|insect\\w*|borer\\w*|termite\\w*|pest\\w*)\\b|\\b(rot|decay|fung\\w*|mould|mold|insect\\w*|borer\\w*|termite\\w*|pest\\w*)\\b.*\\b(resist\\w*|protect\\w*|prevent\\w*|repel\\w*)\\b.*\\bheart\\s*wood\\b|\\b(resin\\w*|sap\\s*resin|oils?|extractives?|tannins?|natural\\s*chemicals?|preservative\\s*chemicals?|toxins?)\\b.*\\b(protect\\w*|resist\\w*|repel\\w*|prevent\\w*|inhibit\\w*)\\b.*\\b(rot|decay|fung\\w*|insect\\w*|borer\\w*)\\b",
+"flags": "i"
+}
           ]
         },
         {
@@ -64,8 +64,9 @@
           "maxPoints": 1,
           "rubric": [
             {
-              "points": 1,
-              "check": "\\b(rimu|kauri|matai)\\b",
+             "points": 1,
+  "check": "(?i)\\b(rimu|kauri|m[aā]tai|t[oō]tara|beech|silver beech|red beech|black beech|tawa|rewa rewa|rew[aā]rewa)\\b",
+
               "flags": "i"
             }
           ]
