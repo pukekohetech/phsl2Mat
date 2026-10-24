@@ -1530,15 +1530,25 @@
           "hint": "See pages 26-27 (borer).",
           "type": "long",
           "maxPoints": 2,
-          "rubric": [
+        "rubric": [
     {
       "points": 1,
-      "check": "\\b(?:exit\\s*holes?|flight\\s*holes?|pin\\s*holes?|small\\s*holes?|round\\s*holes?|holes?)\\b",
+      "check": "\\b(?:holes?|pinholes?)\\b",
       "flags": "i"
     },
     {
       "points": 1,
-      "check": "\\b(?:frass|powder|powdery\\s*dust|fine\\s*dust|wood\\s*dust|borer\\s*dust|sawdust|tunnels?|tunnel(?:l)?ing|burrows?|burrowing|galleries)\\b",
+      "check": "\\b(?:tunnels?|tunnel(?:l)?ing|burrows?|burrowing|galler(?:y|ies)|cavit(?:y|ies)|hollow\\w*|thin\\s+(?:outer\\s+)?shell|eaten\\s*out|gnawed\\s*out)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(?:frass|powder(?:y)?|sawdust|dust)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(?:eggs?|egg[-\\s]*shells?|larv(?:a|ae|as)|lava|grubs?|pupa(?:e|s)?|beetles?|adult\\s+borers?)\\b",
       "flags": "i"
     }
   ]
