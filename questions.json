@@ -1531,17 +1531,17 @@
           "type": "long",
           "maxPoints": 2,
           "rubric": [
-            {
-              "points": 1,
-              "check": "exit holes?|flight holes?|holes?",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "frass|powder|fine dust|borer dust",
-              "flags": "i"
-            }
-          ]
+    {
+      "points": 1,
+      "check": "\\b(?:exit\\s*holes?|flight\\s*holes?|pin\\s*holes?|small\\s*holes?|round\\s*holes?|holes?)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(?:frass|powder|powdery\\s*dust|fine\\s*dust|wood\\s*dust|borer\\s*dust|sawdust|tunnels?|tunnel(?:l)?ing|burrows?|burrowing|galleries)\\b",
+      "flags": "i"
+    }
+  ]
         },
         {
           "id": "ka_q7b_wet_rot_signs",
